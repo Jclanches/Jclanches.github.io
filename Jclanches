@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>JC Lanches</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #FFF9F0; margin: 0; }
+  header { background: #FF9900; color: #fff; text-align: center; padding: 30px 20px; }
+  nav { background: #FFA733; text-align: center; padding: 10px; }
+  nav a { color: white; margin: 0 15px; font-weight: bold; text-decoration: none; }
+  section { padding: 30px; max-width: 900px; margin: auto; }
+  .menu-item { background: #fff; padding: 15px; margin: 15px 0; border-radius: 8px;
+               box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+  .btn-pix {
+    display: inline-block; background: #25D366; color: white;
+    padding: 10px 18px; border-radius: 5px; text-decoration: none;
+    margin-top: 8px;
+  }
+  footer { background: #FF9900; color: #fff; text-align: center; padding: 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>JC Lanches</h1>
+  <p>Os melhores lanches da cidade!</p>
+  <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20fazer%20um%20pedido%20pelo%20WhatsApp%20📲" target="_blank">
+    📲 Pedir via WhatsApp
+  </a>
+  <br><br>
+  <a href="https://instagram.com/JCLANCHES_OFC" target="_blank">📸 Instagram: @JCLANCHES_OFC</a>
+</header>
+
+<nav>
+  <a href="#cardapio">Cardápio</a>
+  <a href="#sobre">Sobre</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="cardapio">
+  <h2>🍔 Cardápio</h2>
+
+  <!-- Combo X-Burguer -->
+  <div class="menu-item">
+    <h3>Combo X-Burguer</h3>
+    <div>
+      <strong>Industrial:</strong> R$ 14,00<br>
+      <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20pagar%20via%20Pix%20o%20Combo%20X-Burguer%20industrial%20de%20R$14,00.%20Chave:%20(81)%2098333-2778" target="_blank">
+        💰 Pagar via Pix – Industrial
+      </a>
+    </div>
+    <div>
+      <strong>Artesanal:</strong> R$ 16,00<br>
+      <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20pagar%20via%20Pix%20o%20Combo%20X-Burguer%20artesanal%20de%20R$16,00.%20Chave:%20(81)%2098333-2778" target="_blank">
+        💰 Pagar via Pix – Artesanal
+      </a>
+    </div>
+  </div>
+
+  <!-- Combo X-Tudo -->
+  <div class="menu-item">
+    <h3>Combo X-Tudo</h3>
+    <div>
+      <strong>Industrial:</strong> R$ 22,00<br>
+      <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20pagar%20via%20Pix%20o%20Combo%20X-Tudo%20industrial%20de%20R$22,00.%20Chave:%20(81)%2098333-2778" target="_blank">
+        💰 Pagar via Pix – Industrial
+      </a>
+    </div>
+    <div>
+      <strong>Artesanal:</strong> R$ 27,00<br>
+      <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20pagar%20via%20Pix%20o%20Combo%20X-Tudo%20artesanal%20de%20R$27,00.%20Chave:%20(81)%2098333-2778" target="_blank">
+        💰 Pagar via Pix – Artesanal
+      </a>
+    </div>
+  </div>
+
+  <!-- Combo X‑Cheddar Bacon -->
+  <div class="menu-item">
+    <h3>Combo X-Cheddar Bacon</h3>
+    <div>
+      <strong>Industrial:</strong> R$ 22,00<br>
+      <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20pagar%20via%20Pix%20o%20Combo%20X-Cheddar%20Bacon%20industrial%20de%20R$22,00.%20Chave:%20(81)%2098333-2778" target="_blank">
+        💰 Pagar via Pix – Industrial
+      </a>
+    </div>
+    <div>
+      <strong>Artesanal:</strong> R$ 23,00<br>
+      <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20pagar%20via%20Pix%20o%20Combo%20X-Cheddar%20Bacon%20artesanal%20de%20R$23,00.%20Chave:%20(81)%2098333-2778" target="_blank">
+        💰 Pagar via Pix – Artesanal
+      </a>
+    </div>
+  </div>
+
+  <!-- Combo Coxinha -->
+  <div class="menu-item">
+    <h3>Combo Coxinha + Batata + Guaraná</h3>
+    <strong>R$ 10,00</strong><br>
+    <a class="btn-pix" href="https://wa.me/5581983332778?text=Olá!%20Quero%20pagar%20via%20Pix%20o%20Combo%20Coxinha%20de%20R$10,00.%20Chave:%20(81)%2098333-2778" target="_blank">
+      💰 Pagar via Pix
+    </a>
+  </div>
+
+  <!-- Adicione mais combos conforme seu cardápio -->
+</section>
+
+<section id="sobre">
+  <h2>Sobre Nós</h2>
+  <p>A JC Lanches nasceu com o objetivo de servir lanches saborosos, bem servidos e acessíveis. Atendemos com agilidade e aquele toque caseiro que todo mundo ama. Vem experimentar!</p>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>📞 WhatsApp: <a href="https://wa.me/5581983332778">(81) 98333‑2778</a></p>
+  <p>📸 Instagram: <a href="https://instagram.com/JCLANCHES_OFC">@JCLANCHES_OFC</a></p>
+  <p>💳 Pagamento via Pix (mesma chave para todos): <em>(81) 98333‑2778</em></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 JC Lanches. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
